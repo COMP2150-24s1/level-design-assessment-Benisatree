@@ -1,71 +1,67 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
-### Name: [your name]
-### Student number: [your student number] 
-
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
+### Name: Benjamin Keith
+### Student number: 47311436
 
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
-
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+For a player to comprehensively learn the mechanics and dynamics present within a system, they must discover the the components and their interactions in a meaningful and intuitive method. The introduction to components and initial interactions is presented primarily within the first section of my level. The first physical challenge of the level pressures the player towards discovery of the systems mechanics of player movement and ability to fire the newly acquired gun. 
+![The second encounter seen before it's accessible](DocImages/BeforeAcidDoor.png)
+![Past the door and inside the second encounter](DocImages/AfterAcidDoor.png)
+When facing the second encounter, the player has witnessed a key move behind a wall, and their only clear pathway is a raised walkway across a pool of acid. Additionally the player has seen a moving platform with a skeleton raise up from the acid pool, which simultaniously serves the purpose of communicating with the player that the acid is dangerous and giving them the gun. The unobtainability of the key creates the want for exploration in the player by defining a goal to incentivise them, but in order to explore they must overcome the physical challenge of the acid pool to get to the only clear route, the raised walkway. This pressures the player into discovery as they only access to two mechanics that allow them to interact with the game, shooting and movement, which means they must use one or both of them in order to cross the acid pool. The player can jump to the walkway if they hold down space, but will miss if they only tap the key, landing in the acid pit and resaulting in failure. Failure in this instance too provides discovery as they must cross a checkpoint to enter the room, where they will appear at if they fall in acid. By forcing the player to hold space to jump the acid pit, an understanding of the capabilities of the toys movement are. By developing the understanding of movement, the player discovers complexities within the systems mechanics stemming from the ability for finer movement in spaces.
+This discovery is then expanded on by presenting the player with another pathway to follow, above where they previously were. This gap is too big to be jumped by the player, and they will likely fall into the acid if they try. This now leaves the player with only shooting as a means of interaction that could solve the challenge, inevitably leading them to shooting the one-use switch across the acid pool which brings up another platform that allows them to jump across the pit. This instance presents discovery of the limits of movement but also how the mechanics of activating a switch by shooting it create a dynamic stemming from game rules.
+![Shooting the one-use switch](DocImages/AcidSwitchOff.png)
+![One-use switch on and platform raised](DocImages/AcidSwitchOn.png)
+
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+To create a dramatic arc within the level I have designed, the player is subjected to challenging encounters acting as difficulty spikes, that are then followed by the reward of threat free progression and travel.
+
+The final encounter of section 1 traps the player in a room with a spitter, where they must run to the other side of the room and onto a platform to shoot it. While the challenge is minor, it is a difficulty spike that is designed to induce panic into the player, and after the player hits a switch behind the spitter, the moving platform with spikes also dissapears, indicating the room is no longer a threat and allowing the player to feel relieved as they are safe. 
+
+Relativelt free of drama otherwise, the climax of section 2 appears in the form of a time trial, dramatically increasing the difficulty for a very short period of time. The player must ascend through a structure, to reach a door at the top while a platform does the same, where if the platform reaches the top first the door closes. The time frame the player must reach the top is very short, and the player must overcome multiple obsticles to do so.
+
+Section 3 begins completely different to the other sections, collecting the key at the start, as the player descends deep into the ground, falling down narrow pits, the only objective left is to reach the end door.  The dramatic arc rapidly increases from the beggining, as the player faces a long, increasingly difficult challenge, while having to stay on a moving platform as it navigates the cave. Fitting in theme with the dramatic narrative of ascent and descent present within the rest of the level, section 3 ends with an ascent to the end although as a final climax to the level, the platform the player is on becomes covered with enemies they must fight off until they reach the top, where there is a corridor leading straight to the end.
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+The level I have designed focuses on challenging physical skills, but has frequent intellectual and perceptual skill testing aspects to challenges. Throughout the level, these challenges increase in difficulty, begining in section one, where challenges are basic as they introduce concepts, such as needing to jump over acid, pushing something from the other side of a one way wall, avoiding and shooting a spitter, and using a box to push debris accross spikes and onto a pressure plate. The difficulty curve increases in section 2 such as requiring the player to engage with perceptive and intellectual skills further. 
+
+In this example, a pushable box sits in the walkway, and the player will discover they can put it into the spike room, but cannot then enter themselves. The ability for the box to enter the spike room alone serves to mislead the player, as the solution lies in using a moving platform to push debri onto the plate and to stand on the box in acid to shoot a switch. 
+
+Section 3 increases challenge difficulty through the only path forward being on a moving platform, as it navigates a tunnel. This sequence is the final test and the most difficult challenge of the level, as every physical skill taught to the player is tested, asking the player to make tight jumps, in small spaces, in response to obstacles that appear quickly and move around, all while staying on the platform. Additionally, the players combat skills are tested, forcing them to encounter many enemies, and either fight them to keep up with the platform, or fight them on a platform. 
+
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+Exploration is used as the driving motivation behind player progression. From the first room, the player can see the end door beneath them, and a key just behind a closed door to the room. When the door opens, the key moves behind a wall, becoming unobtainably and requiring the player to explore in order to get to it. This creates a clear goal for the player to acheive that pushes them forwards, driven by a seemingly close by goal.
+Within section 2, the player is provided the most oppertunity to explore the space. As it is the most open environment, and the player is able to move around it to find where they must go. They will find they need a box to hold open a door, leading them to ascend to sky islands. Here they are provided with 2 simple choices, to go left or right, each leading to a seperate challenge. Upon completion of the challenge, the player is brought to the center, where they will see two switches, one they can use, and one on the other side the can't. This communicates to the player that there is still more to explore, which they must do so in order to access the box in the middle.
+
 
 ## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
-
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
-
-### 2.1. Acid
-
-### 2.2. Checkpoints
-
-### 2.3. Chompers
-
-### 2.4. Health Pickups
-
-### 2.5. Keys
-
-### 2.6. Moving Platforms
 
 ### 2.7. Passthrough Platforms
+![Storyboard for Passthrough Platforms](DocImages/FinStoryBoard1.png)
+
+### 2.6. Moving Platforms 
+### 2.5. Keys
+### 2.2. Checkpoints
+### 2.1. Acid
+### 2.10. Weapon Pickup (Gun)
+- fear to fascillitate discovery of movement
+- large gap for moment of pause to notice gun
+![Storyboard for Moving Platforms, Keys, Checkpoints, Acid, and Weapon Pickup (Gun)](DocImages/FinStoryBoard2.png)
+
+### 2.3. Chompers
+### 2.4. Health Pickups
+![Storyboard for Chompers and Health Pickups](DocImages/FinStoryBoard3.png)
+
 
 ### 2.8. Spikes
-
 ### 2.9. Spitters
-
-### 2.10. Weapon Pickup (Gun)
-
 ### 2.11. Weapon Pickup (Staff)
+![Storyboard for Spikes, Spitters, and Weapon Pickup (Staff)](DocImages/FinStoryBoard4.png)
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
-
-No additional words are necessary for this section (any words should only be within your images/diagrams).
- 
 ### 3.1. Molecule Diagram
-
+![Molecule diagram](DocImages/MoleculeDiagram.png)
 ### 3.2. Level Map – Section 1
 
 ### 3.3.	Level Map – Section 2
@@ -73,28 +69,13 @@ No additional words are necessary for this section (any words should only be wit
 ### 3.4.	Level Map – Section 3
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+Iterative design was pivotal in the formation of my level as it is designed currently. The intial plans for my level revolved around the appearance of traveling in a train, as the linear structure of moving right to left gave the player a clear path and goal, being to reach the front of the train. This idea was scrapped when I began planning out encounters, as i immediately realized how i would need to use more space for planned encounters. An aspect I did keep, was containing encounters within specific box areas, to make them distinct and feel like a trial for their challenge type. This is seen within the two paths to be taken in section 2, where each challenge tests seperate skills, with seperate gimmicks. 
+Another major aspect kept from inital planning is the main premise of section 3, facing challenges on a moving platform. Although much smaller scale than the train, the moving platform segment incorporates alot of early plans for movement based challenges, including switches between being on the platform and on solid terrain trying to keep up.
+![Planning Section 2](DocImages/PlanningSection2.jpg)
+![Planning Section 3](DocImages/PlanningSection3.jpg)
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
-
-## Generative AI Use Acknowledgement
-
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
+An aspect of level that could be further improved through iterations is the final encounter of section 1. Many concepts are introduced but the major flaw is found in the use of the staff being unclear. Despite being found in front of destructable walls, the player is under-pressure from a spitter and likely isn't focused on their newly acquired tool. Iterative design would help rework the method this room introduces concepts, to make the purpose of the staff much clearer.
 
 
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
-
-
+Hi, sorry this is incomplete. 
+It's absolutely not due to lack of care or time put into it, but I messed up my time management for it.
